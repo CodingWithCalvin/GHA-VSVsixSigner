@@ -1,0 +1,11 @@
+inputs:
+  sign-password:
+    type: string
+  sign-certificate-path:
+    type: string
+  vsix-path:
+    type: string
+  vs-version:
+    type: string
+  vs-prerelease:
+    type: boolean
