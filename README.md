@@ -1,4 +1,4 @@
-# calvinallen/action-vs-vsix-signer
+# codingwithcalvin/action-vs-vsix-signer
 
 Github Action to sign your Visual Studio extensions before you publish to the marketplace
 
@@ -16,7 +16,7 @@ steps:
       uses: actions/checkout@v2
 
     - name: Visual Studio VSIX Signer
-      uses: CalvinAllen/action-vs-vsix-signer@v1
+      uses: codingwithcalvin/action-vs-vsix-signer@v1
       with:
         # REQUIRED
         sign-certificate-path: ./src/SigningCert.snk
